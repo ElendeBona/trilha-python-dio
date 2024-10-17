@@ -1,14 +1,14 @@
-class Passaro:
-    def voar(self):
-        print("Voando...")
+class Passaro: #pai
+    def voar(self): #metodo voar
+        print("Voando...") #implementação qualquer
 
 
-class Pardal(Passaro):
+class Pardal(Passaro): #filho
     def voar(self):
         print("Pardal pode voar")
 
 
-class Avestruz(Passaro):
+class Avestruz(Passaro): 
     def voar(self):
         print("Avestruz não pode voar")
 
@@ -19,8 +19,8 @@ class Aviao(Passaro):
         print("Avião está decolando...")
 
 
-def plano_voo(obj):
-    obj.voar()
+def plano_voo(obj): #função
+    obj.voar() 
 
 
 plano_voo(Pardal())

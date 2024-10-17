@@ -1,5 +1,6 @@
 #DESAFIO SISTEMA BANCARIO SIMPLES 
 
+
 #Fomos contratados por um grande banco para desenvolver o seu novo sistema. Esse banco deseja modernizar suas operações e para isso escolheu a linguagem Python. Para a primeira versão do sistema devemos implementar apenas 3 operações: depósito, saque e extrato.
 
 #>>Regras de Negócio
@@ -21,10 +22,15 @@ menu = """
 [e] Extrato
 [q] Sair
 
-=> """
-#regras de negócio 
+=> ""MENU DE OPERAÇÃO""
+#Regras de negócio 
 saldo = 0 >0
 limite = 500 #limite por operação por dia
 extrato = "" #Menu com resumo de todos extratos e operações realizadas 
 numero_saques = 0 != 3 por dia
 LIMITE_SAQUES = 3
+
+
+#Caminho para a pasta da minha versão do desafio > /trilha-python-dio-main/Desafio_sistema_bancario_elen/ 
+
+sacjsjfcsp

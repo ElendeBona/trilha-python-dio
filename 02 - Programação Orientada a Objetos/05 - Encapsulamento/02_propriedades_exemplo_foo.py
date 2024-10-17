@@ -10,14 +10,14 @@ class Foo:
     def x(self, value):
         self._x += value
 
-    @x.deleter
-    def x(self):
-        self._x = 0
+    #@x.deleter
+    #def x(self):
+    #    self._x = 0
 
 
 foo = Foo(10)
 print(foo.x)
-del foo.x
+#del foo.x
 print(foo.x)
 foo.x = 10
 print(foo.x)
