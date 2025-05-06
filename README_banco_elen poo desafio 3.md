@@ -1,4 +1,4 @@
-# MODELANDO O DESAFIO SISTEMA BANCARIO V1 e V2
+# MODELANDO O DESAFIO SISTEMA BANCÁRIO V1 e V2
 
 
 >Atualizar a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários. O código deve seguir o modelo de classes UML a seguir:
